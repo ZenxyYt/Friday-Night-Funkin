@@ -9,45 +9,16 @@
 </head>
 <body>
   <header class="top">
-    <a class="logo" href="#">FNF<span>Hub</span></a>
+    <a class="logo" href="#/">FNF<span>Hub</span></a>
     <nav>
-      <a href="#games">Games &amp; Mods</a>
-      <a href="#about">About</a>
+      <a href="#/">All Mods</a>
       <a href="https://github.com/FunkinCrew/Funkin" target="_blank" rel="noopener">Source</a>
     </nav>
   </header>
 
-  <section class="hero">
-    <div class="arrows" aria-hidden="true">
-      <span>&#8592;</span><span>&#8595;</span><span>&#8593;</span><span>&#8594;</span>
-    </div>
-    <h1>Friday Night Funkin' Hub</h1>
-    <p>Find FNF games, mods and tools in one place.</p>
-    <a class="btn" href="#games">Browse</a>
-  </section>
+  <div id="app"></div>
 
-  <main id="games">
-    <div class="controls">
-      <input id="search" type="search" placeholder="Search games and mods..." aria-label="Search">
-      <div id="filters" class="filters"></div>
-    </div>
-    <div id="grid" class="grid"></div>
-    <p id="empty" class="empty" hidden>Nothing found.</p>
-  </main>
-
-  <section id="about" class="about">
-    <h2>About</h2>
-    <p>This is an unofficial fan site. Friday Night Funkin' is by ninjamuffin99, PhantomArcade, evilsk8r and Kawai Sprite. This site links to the games and mods; it does not host them. Support the creators by playing on their official pages.</p>
-  </section>
-
-  <div id="modal" class="modal" hidden>
-    <div class="modal-box">
-      <button id="close" aria-label="Close">&times;</button>
-      <iframe id="frame" title="Game" allow="autoplay; fullscreen"></iframe>
-    </div>
-  </div>
-
-  <footer>Fan-made, not affiliated with Funkin' Crew Inc.</footer>
+  <footer>Fan-made, not affiliated with Funkin' Crew Inc. This site links to games and mods; it does not host them.</footer>
   <script src="script.js"></script>
 </body>
 </html>
